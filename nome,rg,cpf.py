@@ -1,0 +1,5 @@
+nome = input("Qual seu nome?")
+idade = input("Qual sua idade?")
+cpf = input("Digite seu CPF")
+rg = input("Digite seu RG")
+print("Bem vindo",nome,idade,"anos","portador(a) do cpf",cpf,"e do rg",rg, "Você foi cadastrado(a) com sucesso")  
