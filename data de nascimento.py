@@ -1,4 +1,4 @@
-dia = input("Qual seu dia de nascimento?")
-mes = input("Qual seu mes de nascimento?")
-ano = input("Qual ano do seu nascimento?")
-print("Você nasceu no dia",dia,"do mês",mes,"do ano de",ano,)
+dia = input("What is your birth day?")
+mes = input("What is the month of your birth?")
+ano = input("What year were you born?")
+print("You were born in",mes,"on the",mes,"of the year",ano,)
