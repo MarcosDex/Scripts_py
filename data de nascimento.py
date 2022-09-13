@@ -1,4 +1,9 @@
-dia = input("What is your birth day?")
-mes = input("What is the month of your birth?")
-ano = input("What year were you born?")
-print("You were born in",mes,"on the",dia,"of the year",ano,)
+idade = int(input('digite sua idade'))
+if idade >= 10 and idade < 20:
+     print("você é jovem")
+elif idade >= 20 and idade <= 30:
+     print("voce é veio")
+elif idade >= 30 and idade <= 100:
+     print("voce é adulto")
+else:
+     print('type null')
