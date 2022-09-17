@@ -1,7 +1,9 @@
-coloque = int(input('Digite o numero que sera verificado no sistema:'))
-numero = [1,2,3,4,5,6,7,8,9]
+procurar = int(input('Digite algum caractere situado entre 0 e 9 para procurar:'))
 
-if coloque > 10:
-    print('Não existe esse numero')
+pain = [0,1,2,3,4,5,6,7,8,9]
+
+if procurar > 9:
+    print('Não existe esse numero na vetorização')
 else:
-    print('O numero digitado foi', numero)
+    for n, valor in enumerate(pain):
+        print(f"Índice={n} | Valor={valor}")
