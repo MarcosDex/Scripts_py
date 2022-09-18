@@ -19,11 +19,11 @@ elif alfa == o or alfa == oO:
     print('Vogal')
 elif alfa == u or alfa == uU:
     print('Vogal')
+elif alfa < '0':
+    print('Numero negativo')
+elif alfa.isnumeric():
+    print('Isto é um numero')
+elif alfa.isalnum():
+    print('Isto é um alfa-numerico')
 else:
     print('Consoante')
-
-
-
-
-if alfa.isalnum():
-    print('Isto é um numero')
