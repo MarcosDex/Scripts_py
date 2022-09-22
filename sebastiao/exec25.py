@@ -1,3 +1,4 @@
+#Faça um Programa que leia três números e mostre o maior e o menor deles.
 num1 = float(input('Digite um numero'))
 num2 = float(input('Digite um segundo numero'))
 num3 = float(input('Digite um terceiro numero'))

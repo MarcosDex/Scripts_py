@@ -1,3 +1,5 @@
+#Faça um Programa que leia três números e mostre-os em ordem decrescente.
+#Fiz um plus e coloquei-os em ordem crescente também.
 number1 = float(input('Digite um numero:'))
 number2 = float(input('Digite mais um numero:'))
 number3 = float(input('Digite o ultimo numero:'))

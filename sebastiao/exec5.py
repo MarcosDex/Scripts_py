@@ -1,3 +1,4 @@
+#Faça um Programa que converta metros para centímetros.
 metro = int(input('Digite quantos metros precisa converter:'))
 cm = metro*100
 

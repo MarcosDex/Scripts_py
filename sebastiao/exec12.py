@@ -1,3 +1,5 @@
+#Tendo como dados de entrada a altura de uma pessoa, construa um programa que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58
+#Nota de marcos = 'Professor, eu fiz a 12 e a 13 juntas pra poupar tempo que o enunciado de uma é o mesmo da outra' entre algumas aspas
 sexo = input('Escolha: M - Masculino / F - Feminino: ')
 h = float(input('Altura:'))
 m = 72.7 * h - 58

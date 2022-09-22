@@ -1,3 +1,4 @@
+#Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
 alfa = input("Informe uma letra ou consoante:")
 a = 'A'
 aA = 'a'
