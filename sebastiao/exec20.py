@@ -1,4 +1,4 @@
-print ('Por favor insira as respostas da prova, elas possuem: a, b, c, d or e\n')
+print ('Por favor insira as respostas da prova, elas possuem: a, b, c, d ou e\n')
 questaccept = ('a','c','d','d','e','b','c','c','a','b','d','c','b','e','c','b','a','e','b','c')
 questoes = []
 n = 20
@@ -15,7 +15,7 @@ else:
 cadastrarnewaluno = input('\nDeseja cadastrar outra nota? (s,n): ')
 
 while cadastrarnewaluno == 'S' or cadastrarnewaluno == 's':
-    print('Por favor insira as respostas da prova, elas possuem: a, b, c, d or e\n')
+    print('Por favor insira as respostas da prova, elas possuem: a, b, c, d ou e\n')
     questaccept = ('a', 'c', 'd', 'd', 'e', 'b', 'c', 'c', 'a', 'b', 'd', 'c', 'b', 'e', 'c', 'b', 'a', 'e', 'b', 'c')
     questoes = []
     n = 20

@@ -1,11 +1,14 @@
-cidade = input('Digite o nome da primeira cidade')
-cidade2 = input('Digite o nome da segunda cidade')
-cidade3 = input('Digite o nome da terceira cidade')
-cidade4 = input('Digite o nome da quarta cidade')
-cidade5 = input('Digite o nome da quinta cidade')
-cidade6 = input('Digite o nome da sexta cidade:')
-cidades1 = 
-while cidades1 == cidades1:
-    cidades = input('Digite algo' + cidades1)
-else:
-    print(cidades + cidades1)
+cities = []
+for i in range (0,6):
+    inputs = input('Please insert the name of the %d city: ' % (i + 1))
+    if inputs in cities:
+        inputs = input('That name is already in the list. Please insert the name of the city: ')
+    cities.append(inputs)
+    answer = input('Would you like to extend the city name?(y/n) ')
+    if answer in ('Y', 'y'):
+        extra = input('Input the name extension:')
+        cities[i] = cities[i] + extra
+        print(cities[i])
+print('The city names inputted are: ', *cities)
+longest = max(cities,key=len)
+print(longest,'is the longest city name!')
